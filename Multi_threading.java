@@ -9,7 +9,7 @@ public class Multi_threading extends Thread {
 		Thread ob = Thread.currentThread();
 		
 		System.out.println(ob.isInterrupted());
-		ob.start();
+		//ob.start();
 //		ob.setName("Insta");
 //		System.out.println(ob.getName());
 //		System.out.println(ob.getPriority());
